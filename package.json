@@ -1,6 +1,6 @@
 {
-  "name": "react-native-image-crop-picker",
-  "version": "0.41.3",
+  "name": "@productwindtom/react-native-image-crop-picker",
+  "version": "0.41.3-patch.1",
   "description": "Select single or multiple images, with cropping option",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivpusic/react-native-image-crop-picker.git"
+    "url": "git+https://github.com/ProductWind/react-native-image-crop-picker.git"
   },
   "keywords": [
     "react",
@@ -25,10 +25,13 @@
   "author": "Ivan Pusic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ivpusic/react-native-image-crop-picker/issues"
+    "url": "https://github.com/ProductWind/react-native-image-crop-picker/issues"
   },
-  "homepage": "https://github.com/ivpusic/react-native-image-crop-picker#readme",
+  "homepage": "https://github.com/ProductWind/react-native-image-crop-picker#readme",
   "peerDependencies": {
     "react-native": ">=0.40.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
